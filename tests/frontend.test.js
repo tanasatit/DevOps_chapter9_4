@@ -18,7 +18,7 @@ describe("flixtube front end", () => {
 
         // Check that we have two items in the video list.
         const videos = page.locator("#video-list>div");
-        await expect(videos).toHaveCount(2);
+        await expect(videos).toHaveCount(200);
 
         const firstVideo = videos.nth(0).locator("a"); // Check the first item in the video list.
         await expect(firstVideo).toHaveText("SampleVideo_1280x720_1mb.mp4"); // Make sure file name is correct.
