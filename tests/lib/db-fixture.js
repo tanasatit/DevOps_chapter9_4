@@ -1,6 +1,5 @@
-//
 // Helper functions for working with the database.
-// Loaeding and unloading database fixture, etc.
+// Loaeding and unloading database fixture, etc
 //
 
 const axios = require("axios");
